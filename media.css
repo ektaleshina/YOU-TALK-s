@@ -1,0 +1,133 @@
+@media (min-width: 1024px) {
+    .burger-button {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .navig {
+        min-width: 40px;
+    }
+
+    .main-area {
+        gap: 24px;
+    }
+
+    .main_tags {
+        flex-wrap: wrap;
+    }
+
+    .aside-base, .article-base {
+        min-width: 100%;
+    }
+
+    .main-bottom, .aside-base__red-circle, .main-bottom-back, .article-base__bottom, .list-mother, .list-mother-two {
+        display: none;
+    }
+
+}
+
+@media (max-width: 800px) {
+        .navig__bar, .navig__choose_button {
+            display: none;
+        }
+}
+
+@media (max-width: 450px) {
+    .article-base__quote-center-text {
+        max-width: 100%;
+    }
+
+    .aside-base__card-first, .aside-base__card-second {
+        padding: 10px;
+    }
+
+    .footer-top__mid {
+        margin-bottom:  0px;
+    }
+
+    .footer-top__mid-input_area-email {
+        width: 100%;
+    }
+
+    .footer-top__mid-input_area {
+        width: 100%;
+    }
+
+    .footer-top__mid-input_area-but {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .article-base {
+        gap: 16px;
+    }
+
+    .main-area {
+        gap: 10vw;
+    }
+
+    .aside-base__card-se {
+        padding: 16px;
+
+    }
+}
+
+@media (max-width: 700px) {
+    .main_tags {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        gap: 8px;
+        overflow-x: visible;
+    }
+
+    .main_hero, .main_cards .main_cards_second {
+        flex-direction: column;
+    }
+
+    .five, .six, .seven, .eight {
+        display: none;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+    }
+
+    br {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1025px) and (min-width: 650px) {
+    .container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .aside-base {
+        column-gap: 16px;
+        row-gap: 36px;
+    }
+
+    .aside-base__card-thr-h br {
+        display: none;
+    }
+
+    .aside-base__card-se {
+        padding-bottom: 0%;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 700px) {
+    .self-esteem {
+        min-height: 60%;
+    }
+
+}
